@@ -1,0 +1,25 @@
+# --- Core Deep Learning ---
+torch>=1.13.1           # PyTorch for model building and training
+
+# --- Transformers & NLP ---
+transformers>=4.35.0    # HuggingFace Transformers: model loading, tokenizers, pipelines
+datasets>=2.14.0        # HuggingFace Datasets: easy dataset loading and processing
+evaluate>=0.4.0         # HuggingFace Evaluate: for accuracy, F1, and other metrics
+
+# --- Machine Learning Tools ---
+scikit-learn>=1.2.2     # Useful for confusion matrix, classification reports, etc.
+
+# --- Data Handling ---
+numpy>=1.23.5           # Numerical operations
+pandas>=1.5.3           # Tabular data handling, dataset analysis
+
+# --- Visualization (Optional but Recommended) ---
+matplotlib>=3.7.1       # Plotting training curves or confusion matrices
+seaborn>=0.12.2         # Enhanced plotting aesthetics for NLP data
+
+# --- Progress Bars & UI ---
+tqdm>=4.65.0            # Progress bars in training and evaluation loops
+
+# --- Jupyter Notebook (if running locally) ---
+notebook                # To run .ipynb notebooks from the browser
+ipykernel               # Enables Jupyter kernel support in virtual environments
